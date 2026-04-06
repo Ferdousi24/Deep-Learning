@@ -54,6 +54,12 @@ The goal was to apply deep learning techniques for **binary image segmentation**
 - Matplotlib  
 
 ---
+## 📊 Results
+
+- **Intersection over Union (IoU): 0.79**, indicating strong overlap between predicted and ground truth masks and serving as the primary evaluation metric for segmentation quality  
+- **Pixel-wise accuracy: ~86%**, reflecting the percentage of correctly classified pixels (background and foreground combined)  
+- The model produces probability-based segmentation masks with values ranging from 0 to 1, successfully distinguishing squirrel regions from background  
+
 
 ## 🌍 Relevance to GIS & Environmental Analysis
 This project demonstrates how deep learning can be applied to:
