@@ -1,4 +1,4 @@
-# 🐿️ Binary Image Segmentation of Squirrels using U-Net
+#  Binary Image Segmentation of Squirrels using U-Net
 
 > A deep learning-based image segmentation project using the **U-Net architecture** to identify and segment squirrels from images.  
 > The model was trained on 500 images and evaluated using accuracy and Intersection over Union (IoU), achieving strong performance in distinguishing squirrel regions from background.
@@ -20,19 +20,19 @@ The goal was to apply deep learning techniques for **binary image segmentation**
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
-### 📊 Dataset Preparation
+### Dataset Preparation
 - Collected 500 squirrel images  
 - Applied OpenCV-based masking to generate binary labels  
 - Created segmentation masks using thresholding techniques  
 
-### 🧹 Preprocessing
+### Preprocessing
 - Resized images to a consistent resolution  
 - Normalized pixel values  
 - Applied data augmentation to improve model generalization  
 
-### 🧬 Model Development
+### Model Development
 - Implemented **U-Net architecture** for image segmentation  
 - Used **Binary Cross-Entropy loss function**  
 - Trained model on labeled dataset  
@@ -63,12 +63,12 @@ This project demonstrates how deep learning can be applied to:
 
 ---
 
-## 👤 Internship Experience
+## Internship Experience
 Department of Geography, Environment, and Geomatics  
 University of Ottawa  
 
 ---
 
-## 👤 Author
+## Author
 Ferdousi Sultana  
 MSc Geography | GIS & Remote Sensing | Deep Learning Applications  
