@@ -65,7 +65,7 @@ The goal was to apply deep learning techniques for **binary image segmentation**
 This project demonstrates how deep learning can be applied to:
 - Wildlife detection and monitoring  
 - Environmental image segmentation  
-- Geospatial and remote sensing image analysis  
+
 
 ---
 
