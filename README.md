@@ -1,22 +1,24 @@
-#  Binary Image Segmentation of Squirrels using U-Net
+#  Semantic Segmentation of Squirrels using U-Net
 
-> A deep learning-based image segmentation project using the **U-Net architecture** to identify and segment squirrels from images.  
-> The model was trained on 500 images and evaluated using accuracy and Intersection over Union (IoU), achieving strong performance in distinguishing squirrel regions from background.
-
----
-
-## Project Overview
-This project was completed as part of my internship in the **Department of Geography, Environment, and Geomatics at the University of Ottawa**.
-
-The goal was to apply deep learning techniques for **binary image segmentation** of squirrels, focusing on distinguishing foreground (squirrel) from background using pixel-level classification.
+> A deep learning-based geospatial image segmentation project using the **U-Net architecture** to perform pixel-wise segmentation of squirrels from natural backgrounds.  
+> The model was trained on 500 wildlife images and evaluated using Intersection over Union (IoU), demonstrating strong performance in foreground-background separation.
 
 ---
 
-##  Objectives
-- Develop a deep learning model for binary image segmentation  
-- Segment squirrel regions from background environments  
-- Improve dataset quality using preprocessing and masking techniques  
-- Evaluate model performance using IoU and accuracy  
+##  Project Overview
+
+This project was completed as part of an internship in the **Department of Geography, Environment, and Geomatics at the University of Ottawa**.
+
+The objective was to develop a deep learning pipeline for **semantic segmentation of wildlife imagery**, enabling pixel-level extraction of squirrel regions from complex environmental backgrounds.
+
+---
+
+## Objectives
+
+- Develop a deep learning model for semantic segmentation of wildlife images  
+- Perform pixel-level separation of squirrels from background environments  
+- Apply image preprocessing and masking techniques to improve training data quality  
+- Evaluate model performance using IoU and segmentation quality metrics  
 
 ---
 
@@ -24,29 +26,31 @@ The goal was to apply deep learning techniques for **binary image segmentation**
 
 ### Dataset Preparation
 - Collected 500 squirrel images  
-- Applied OpenCV-based masking to generate binary labels  
-- Created segmentation masks using thresholding techniques  
+- Generated binary segmentation masks using OpenCV-based masking techniques  
+- Created pixel-level ground truth labels for training  
 
-### Preprocessing
-- Resized images to a consistent resolution  
+###  Preprocessing
+- Resized images to uniform resolution  
 - Normalized pixel values  
 - Applied data augmentation to improve model generalization  
 
-### Model Development
-- Implemented **U-Net architecture** for image segmentation  
+###  Model Development
+- Implemented **U-Net architecture** for semantic segmentation  
 - Used **Binary Cross-Entropy loss function**  
-- Trained model on labeled dataset  
+- Trained model on labeled dataset for pixel-wise prediction  
 
 ---
 
-##  Evaluation Metrics
-- Accuracy  
-- Intersection over Union (IoU)  
-- Visual inspection of segmentation masks  
+## Evaluation Metrics
+
+- **Intersection over Union (IoU): 0.79** → primary metric for segmentation quality  
+  
+- Visual validation of predicted segmentation masks  
 
 ---
 
-## Tools & Technologies
+##  Tools & Technologies
+
 - Python  
 - TensorFlow / Keras  
 - OpenCV  
@@ -54,27 +58,34 @@ The goal was to apply deep learning techniques for **binary image segmentation**
 - Matplotlib  
 
 ---
-## Results
 
-- **Intersection over Union (IoU): 0.79**, indicating strong overlap between predicted and ground truth masks and serving as the primary evaluation metric for segmentation quality  
-- **Pixel-wise accuracy: ~86%**, reflecting the percentage of correctly classified pixels (background and foreground combined). 
-- The model produces probability-based segmentation masks with values ranging from 0 to 1, successfully distinguishing squirrel regions from background. 
+##  Results
 
-
-##  Relevance to GIS & Environmental Analysis
-This project demonstrates how deep learning can be applied to:
-- Wildlife detection and monitoring  
-- Environmental image segmentation  
-
+- The model achieved an **IoU of 0.79**, indicating strong overlap between predicted and ground truth masks  
+- Successfully learned to separate squirrel foreground regions from complex natural backgrounds  
+- Produced probability-based segmentation masks (0–1 range) with high confidence in predictions  
 
 ---
 
-## Internship Experience
+##  Relevance to GIS & Environmental Applications
+
+This project demonstrates the application of deep learning in geospatial workflows, particularly for:
+
+- Wildlife monitoring and habitat analysis  
+- Environmental image segmentation  
+- Automated extraction of spatial features from imagery  
+- Integration of AI with geospatial data science workflows  
+
+---
+
+## Internship Context
+
 Department of Geography, Environment, and Geomatics  
 University of Ottawa  
 
 ---
 
 ## Author
+
 Ferdousi Sultana  
-MSc Geography | GIS & Remote Sensing | Deep Learning Applications  
+MSc Geography | GIS & Remote Sensing | Geospatial AI & Deep Learning
