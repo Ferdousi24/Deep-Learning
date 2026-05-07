@@ -51,11 +51,11 @@ The objective was to develop a deep learning pipeline for **semantic segmentatio
 
 ##  Tools & Technologies
 
-- Python  
-- TensorFlow / Keras  
-- OpenCV  
-- NumPy  
-- Matplotlib  
+- Programming: Python  
+- Deep Learning: TensorFlow, Keras  
+- Computer Vision: OpenCV  
+- Data Processing: NumPy, Pandas  
+- Visualization: Matplotlib
 
 ---
 
