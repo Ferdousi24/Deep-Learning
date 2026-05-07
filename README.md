@@ -5,14 +5,14 @@
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 This project was completed as part of my internship in the **Department of Geography, Environment, and Geomatics at the University of Ottawa**.
 
 The goal was to apply deep learning techniques for **binary image segmentation** of squirrels, focusing on distinguishing foreground (squirrel) from background using pixel-level classification.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Develop a deep learning model for binary image segmentation  
 - Segment squirrel regions from background environments  
 - Improve dataset quality using preprocessing and masking techniques  
@@ -39,14 +39,14 @@ The goal was to apply deep learning techniques for **binary image segmentation**
 
 ---
 
-## 📈 Evaluation Metrics
+##  Evaluation Metrics
 - Accuracy  
 - Intersection over Union (IoU)  
 - Visual inspection of segmentation masks  
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - Python  
 - TensorFlow / Keras  
 - OpenCV  
@@ -54,14 +54,14 @@ The goal was to apply deep learning techniques for **binary image segmentation**
 - Matplotlib  
 
 ---
-## 📊 Results
+## Results
 
 - **Intersection over Union (IoU): 0.79**, indicating strong overlap between predicted and ground truth masks and serving as the primary evaluation metric for segmentation quality  
 - **Pixel-wise accuracy: ~86%**, reflecting the percentage of correctly classified pixels (background and foreground combined). 
 - The model produces probability-based segmentation masks with values ranging from 0 to 1, successfully distinguishing squirrel regions from background. 
 
 
-## 🌍 Relevance to GIS & Environmental Analysis
+##  Relevance to GIS & Environmental Analysis
 This project demonstrates how deep learning can be applied to:
 - Wildlife detection and monitoring  
 - Environmental image segmentation  
